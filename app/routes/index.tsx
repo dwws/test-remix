@@ -16,7 +16,7 @@ export default function IndexRoute() {
                 <nav>
                 <ul>
                     <li>
-                        <Link to="jokes">Read Jokes</Link>
+                        <Link to="jokes" prefetch="render">Read Jokes</Link>
                     </li>
                 </ul>
                 </nav>
